@@ -1,0 +1,4 @@
+:question: :rocket: :palm_up_hand: :white_check_mark:
+:question: :banana: :palm_up_hand: :x:
+:question: :style: :palm_up_hand: :point_right: :rocket: :handshake: :banana: :point_left:  :speech_left: s = q && r
+:printer: :style:

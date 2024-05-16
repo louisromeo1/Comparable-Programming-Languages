@@ -1,0 +1,4 @@
+:printer: :regional_indicator_n: :regional_indicator_a: :regional_indicator_m: :regional_indicator_e: :grey_question:
+:1234: :rocket: :palm_up_hand: :1234: :index_pointing_at_the_viewer: 
+:printer: :regional_indicator_h: :regional_indicator_e: :regional_indicator_l: :regional_indicator_l: :regional_indicator_o: :grey_exclamation:
+:printer: :rocket:

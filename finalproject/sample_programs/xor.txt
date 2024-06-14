@@ -1,8 +1,0 @@
-:question: :hulk: :palm_up_hand: :white_check_mark:
-:question: :banana: :palm_up_hand: :x:
-
-:printer: :regional_indicator_x: :regional_indicator_o: :regional_indicator_r:
-:printer: :hulk: :crossed_swords: :hulk:
-:printer: :banana: :crossed_swords: :hulk:
-:printer: :hulk: :crossed_swords: :banana:
-:printer: :banana: :crossed_swords: :banana:

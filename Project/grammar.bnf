@@ -1,0 +1,61 @@
+# Types and Declarations
+program: function program .
+program: .
+function: :cook: :returnType: ID :rightwards_pushing_hand: param :leftwards_pushing_hand: compoundStmt
+param: dataType ID multi_param .
+param: .
+multi_param: :comet: param
+multi_param: .
+
+dataType: :1234: | :question: | :abcd: | :hole: .
+returnType: :1234: | :question: | :abcd: | :hole: .
+digit: :zero: | :one: | :two: | :three: | :four: | :five: | :six: | :seven: | :eight: | :nine: .
+character:  :regional_indicator_a: | :regional_indicator_b: | :regional_indicator_c: | :regional_indicator_d: | 
+            :regional_indicator_e: | :regional_indicator_f: | :regional_indicator_g: | :regional_indicator_h: | 
+            :regional_indicator_i: | :regional_indicator_j: | :regional_indicator_k: | :regional_indicator_l: | 
+            :regional_indicator_m: | :regional_indicator_n: | :regional_indicator_o: | :regional_indicator_p: | 
+            :regional_indicator_q: | :regional_indicator_r: | :regional_indicator_s: | :regional_indicator_t: | 
+            :regional_indicator_u: | :regional_indicator_v: | :regional_indicator_w: | :regional_indicator_x: | 
+            :regional_indicator_y: | :regional_indicator_z: .
+punctuation: :grey_exclamation: | :nail_care: | :grey_question: | :blue_square: .
+string: (character | punctuation) string.
+string: .
+ID: emoji multi_emoji_ID .
+multi_emoji_ID: emoji multi_emoji_ID
+multi_emoji_ID: .
+
+# Statements
+stmts: ifStmt | whileStmt | forStmt | assignStmt | returnStmt | printStmt | compoundStmt | inputStmt.
+stmts: .
+ifStmt: :herb: expr compoundStmt thenStmt.
+thenStmt: :face_with_monocle: compoundStmt
+thenStmt: .
+whileStmt: :repeat: :question: expr compoundStmt .
+forStmt: :repeat: :1234: expr compoundStmt .
+assignStmt: dataType varId :palm_up_hand: expr .
+compoundStmt: :point_right: stmts :point_left: .
+returnStmt: :mailbox_with_mail: return_expr .
+return_expr: expr .
+return_expr: .
+inputStmt: :1234: :index_pointing_at_the_viewer: . # Number input
+inputStmt: :abcd: :index_pointing_at_the_viewer: . # String input
+printStmt: :printer: expr .
+
+# Expressions
+expr: orExpr | :broken_heart:.
+orExpr: orExpr ( :twisted_rightwards_arrows: | :crossed_swords: ) andExpr | andExpr . # Xor and Or
+andExpr: andExpr :handshake: comparisonExpr | comparisonExpr .
+comparisonExpr: comparisonExpr (:mouse: | :mouse::heavy_equals_sign: | :elephant: | :elephant::heavy_equals_sign: | :heavy_equals_sign: | :person_gesturing_no::heavy_equals_sign:) addsubExpr | addsubExpr .
+addsubExpr: addsubExpr  ( :heavy_plus_sign: | :heavy_minus_sign: ) multdivExpr | multdivExpr .
+multdivExpr: multdivExpr ( :heavy_multiplication_x: | :heavy_division_sign: | :scissors:) negationExpr | negationExpr.
+negationExpr: :person_gesturing_no: | :thermometer_face: negationExpr | baseExpr.
+baseExpr: boolExpr | intExpr | parensExpr | stringExpr | funcCallExpr.
+numberExpr: digit multi_digit float_digit .
+float_digit: :radio_button: digit multi_digit .
+float_digit: .
+multi_digit: digit multi_digit .
+multi_digit: .
+stringExpr: string .
+boolExpr: :white_check_mark: | :x: .
+parensExpr: :point_up: orExpr :point_down: .
+funcCallExpr: ID :incoming_envelope: param . 

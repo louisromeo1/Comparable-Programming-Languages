@@ -1,0 +1,10 @@
+:1234: :hermione: :palm_up_hand: :one::zero: 
+:1234: :harry: :palm_up_hand: :five: 
+
+:question: :ron: :palm_up_hand: :hermione: :elephant: :harry: 
+:question: :crookshanks: :palm_up_hand: :hermione: :mouse: :harry: 
+:question: :percy: :palm_up_hand: :hermione: :heavy_equals_sign: :harry: 
+
+:printer: :ron:
+:printer: :crookshanks:
+:printer: :percy:

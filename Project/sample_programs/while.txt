@@ -1,0 +1,6 @@
+:1234: :ignotus: :palm_up_hand: :zero:
+
+:repeat: :ignotus: :mouse: :one::zero: :point_right:
+    :printer: :ignotus:
+    :ignotus: :palm_up_hand: :ignotus: :heavy_plus_sign: :one:
+:point_left:

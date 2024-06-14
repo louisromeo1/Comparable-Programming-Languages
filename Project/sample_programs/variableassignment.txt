@@ -1,0 +1,4 @@
+:a: :palm_up_hand: :one::zero: :point_left:
+:b: :palm_up_hand: ":regional_indicator_h: :regional_indicator_e: :regional_indicator_l: :regional_indicator_l: :regional_indicator_o:" :point_left:
+:c: :palm_up_hand: :white_check_mark: :point_left:
+

@@ -1,0 +1,29 @@
+# Author: Louis Romeo
+
+# Correctness tests
+# Function declaration
+🔄 🏷️➡️ 🍳 myFunction 🤙🥩 param 🤚🥩 📜
+    🖨 "Hello, World!"
+📜
+
+# Function with return types and parameters
+🔄 🏷️➡️ 🍳 addNumbers 🤙1️⃣6️⃣🥩 num1 🤚1️⃣6️⃣🥩 num2 📜
+    📤 num1 ➕ num2
+📜
+
+# Incorrect tests
+# Missing return type
+🔄 🍳 myFunction 🤙🥩 param 🤚🥩 📜
+    🖨 "Hello, World!"
+📜
+
+# Invalid Emoji in Identifier
+🔄 🏷️➡️ 🍳 my🚩Function 🤙🥩 param 🤚🥩 📜
+    🖨 "Hello, World!"
+📜
+
+# Invalid syntax (missing params)
+🔄 🏷️➡️ 🍳 myFunction 📜
+    🖨 "Hello, World!"
+📜
+

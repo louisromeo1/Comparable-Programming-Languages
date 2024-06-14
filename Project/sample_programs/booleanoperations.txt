@@ -1,0 +1,5 @@
+:question: :ironman: :palm_up_hand: :white_check_mark: 
+:question: :spiderman: :palm_up_hand: :x: 
+:question: :batman: :palm_up_hand: :person_gesturing_no: :ironman: :handshake: :spiderman:
+:question: :hulk: :palm_up_hand: :ironman: :handshake: :spiderman: 
+:question: :catwoman: :palm_up_hand: :ironman: :twisted_rightwards_arrows: :spiderman:

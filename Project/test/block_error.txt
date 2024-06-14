@@ -1,0 +1,6 @@
+:1234: :rocket: :palm_up_hand: :one:
+:1234: :Hulk: :palm_up_hand: :zero:
+
+:herb: :rocket: :mouse: :Hulk: :point_right: :point_right:
+    :printer: :rocket: :mouse: :Hulk:
+:point_left:

@@ -1,4 +1,3 @@
-# CSC 372
 Author: Louis Romeo
 - Comparative Programming Languages at the University of Arizona, Spring 2024.
 - Projects in several major high-level programming languages (SML, Prolog, Ruby) with an emphasis on their characteristics.
